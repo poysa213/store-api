@@ -1,0 +1,1 @@
+adding , 'price_with_tax' to store\serializer\product

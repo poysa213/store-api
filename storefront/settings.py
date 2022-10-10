@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'store',
     'playground',
     'likes',
     'debug_toolbar',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +139,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
     # ...
 ]
+
+REST_FRAMEWORK = {
+    'CORECE_DECIMAL_TO_STRING': False 
+}
