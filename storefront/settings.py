@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'store',
+    'core',
     'playground',
     'likes',
     'debug_toolbar',
@@ -143,3 +144,5 @@ INTERNAL_IPS = [
 REST_FRAMEWORK = {
     'CORECE_DECIMAL_TO_STRING': False 
 }
+
+AUTH_USER_MODEL = 'core.User'
